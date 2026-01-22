@@ -1,8 +1,10 @@
 name: Publish to GitHub Pages
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -34,7 +36,9 @@ jobs:
       - run: pip install uv
       - run: uv run mkdocs build
       - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
         with:
           path: site
       - uses: actions/deploy-pages@v4
+        if: github.ref == 'refs/heads/main'
         id: deployment
