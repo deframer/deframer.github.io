@@ -1,0 +1,11 @@
+[project]
+name = "deframer-github-io"
+version = "0.1.0"
+description = "News Deframer Website"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material",
+    "mkdocs-glightbox",
+    "mkdocs-drawio-file",
+]

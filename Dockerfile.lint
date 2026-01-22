@@ -1,0 +1,10 @@
+ARG IMAGE=node:25-alpine
+FROM ${IMAGE}
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN npm install markdownlint-cli2 -g \
+    && markdownlint-cli2  "docs/**/*.md" README.md
+
