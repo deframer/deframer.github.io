@@ -1,6 +1,0 @@
-pip install mkdocs-material
-pip install mkdocs-macros-plugin
-sudo npm install markdownlint-cli2 -g
-pip install mkdocs-drawio-file
-pip install mkdocs-glightbox
-pip install mkdocs-with-pdf

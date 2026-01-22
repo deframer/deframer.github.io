@@ -1,0 +1,7 @@
+config:
+  default: true
+  MD013: false # Disable line length check
+
+globs:
+  - "docs/**/*.md"
+  - "README.md"

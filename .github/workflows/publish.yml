@@ -19,10 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: DavidAnson/markdownlint-cli2-action@v19
-        with:
-          globs: |
-            docs/**/*.md
-            README.md
 
   deploy:
     needs: lint
