@@ -1,23 +1,19 @@
-REGISTRY=ghcr.io
-PROJECT_NAME=deframer.github.io
-REGISTRY_IMAGE?=$(REGISTRY)/deframer/$(PROJECT_NAME)
-
-IMAGE?=python:3.12
-
 all:
 	@echo all
 
-python-env:
+sync:
 	uv sync
 
 build:
-	mkdocs build
+	. .venv/bin/activate && \
+	 	mkdocs build
 
 serve:
-	mkdocs serve -a 0.0.0.0:8000
+	 . .venv/bin/activate && \
+	 	mkdocs serve -a 0.0.0.0:8000
 
 clean:
-	rm -rf site
+	rm -rf site .env
 
 lint:
 	docker run --rm -v "$$(pwd):/workdir" davidanson/markdownlint-cli2:latest
