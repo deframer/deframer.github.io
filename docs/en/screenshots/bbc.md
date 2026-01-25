@@ -39,4 +39,3 @@ Article 2
 | Basic | Expanded |
 | :---: | :---: |
 | <img src="/assets/screenshots/bbc/bbc-article2-basic.png" alt="BBC Article 2 - Basic" width="600"/> | <img src="/assets/screenshots/bbc/bbc-article2-expanded.png" alt="BBC Article 2 - Expanded" width="600"/> |
-

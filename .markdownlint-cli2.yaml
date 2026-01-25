@@ -1,6 +1,9 @@
 config:
   default: true
   MD013: false # Disable line length check
+  MD033:
+    allowed_elements:
+      - img
 
 globs:
   - "docs/**/*.md"

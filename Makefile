@@ -20,5 +20,5 @@ clean:
 lint:
 	docker run --rm -v "$$(pwd):/workdir" davidanson/markdownlint-cli2:latest
 
-fix-lint:
+lint-fix:
 	docker run --rm --user "$$(id -u):$$(id -g)" -v "$$(pwd):/workdir" davidanson/markdownlint-cli2:latest --fix
