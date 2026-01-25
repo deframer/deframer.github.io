@@ -1,4 +1,9 @@
-# Web Browser Plugin Showcase
+# Screenshots
+
+## Showcases
+
+- [BBC](bbc.md)
+- [Tagesschau](tagesschau.md)
 
 ## AI Configuration
 
@@ -20,12 +25,3 @@ This prompt directs the AI to maintain strict objectivity and political neutrali
 level=DEBUG msg="openai request duration" duration=26.833331235s
 level=DEBUG msg="openai token usage" prompt_tokens=1470 completion_tokens=303 thoughts_tokens=0 total_tokens=1773
 ```
-
-## BBC
-
-See [BBC](bbc.md).
-
-## Tagesschau
-
-See [Tagesschau](tagesschau.md).
-

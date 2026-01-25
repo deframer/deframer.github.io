@@ -42,7 +42,7 @@ plugins:
           build: true
           nav:
             - News Deframer: index.md
-            - Screenshots: screenshots.md
+            - Screenshots:  screenshots/index.md
             - Status & TODO: todo.md
             - License (MIT): license.md
           copyright: Copyright &copy; 2026
@@ -51,7 +51,7 @@ plugins:
           build: true
           nav:
             - News Deframer: index.md
-            - Screenshots: screenshots.md
+            - Screenshots:  screenshots/index.md
             - Status & TODO: todo.md
             - Lizenz (MIT): license.md
           copyright: Copyright &copy; 2026
