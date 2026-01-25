@@ -43,8 +43,8 @@ plugins:
           nav:
             - News Deframer: index.md
             - Screenshots:  screenshots/index.md
-            - Status & TODO: todo.md
-            - License (MIT): license.md
+            - Status: todo.md
+            - License: license.md
           copyright: Copyright &copy; 2026
         - locale: de
           name: Deutsch | German
@@ -52,8 +52,8 @@ plugins:
           nav:
             - News Deframer: index.md
             - Screenshots:  screenshots/index.md
-            - Status & TODO: todo.md
-            - Lizenz (MIT): license.md
+            - Status: todo.md
+            - Lizenz: license.md
           copyright: Copyright &copy; 2026
   - search
   - glightbox

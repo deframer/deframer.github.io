@@ -7,6 +7,7 @@
 The plugin overlays the original web page to provide a distraction-free environment.
 
 **Key Features:**
+
 - **Neutralized Content**: You will not see the original, potentially emotionally charged titles or descriptions. Instead, the AI generates neutral summaries designed to inform rather than provoke.
 - **Sensationalism Score**: The percentage indicator reveals the level of detected sensationalism or bias. A red indicator suggests high levels of manipulation, framing, bias, or misinformation.
 
