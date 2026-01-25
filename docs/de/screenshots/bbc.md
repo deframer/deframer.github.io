@@ -4,29 +4,29 @@
 
 ## Portal
 
-Das Plugin überlagert die ursprüngliche Webseite, um eine ablenkungsfreie Umgebung zu schaffen.
+Das Plugin überlagert die ursprüngliche Webseite, ohne den Inhalt zu verändern, und so eine ablenkungsfreie Darstellung zu schaffen.
 
 **Hauptmerkmale:**
 
-- **Neutralisierter Inhalt**: Sie sehen nicht die ursprünglichen, potenziell emotional aufgeladenen Titel oder Beschreibungen. Stattdessen generiert die KI neutrale Zusammenfassungen, die informieren statt zu provozieren.
-- **Sensations-Score**: Die Prozentanzeige zeigt das Niveau des erkannten Sensationalismus oder der Voreingenommenheit an. Ein roter Indikator deutet auf ein hohes Maß an Manipulation, Framing, Voreingenommenheit oder Fehlinformationen hin.
+- **Neutralisierter Inhalt**: Sie sehen nicht die ursprünglichen, potenziell emotional aufgeladenen Titel oder Beschreibungen. Stattdessen generiert die KI neutrale Zusammenfassungen, die Sie informieren, anstatt Sie zu provozieren, zu empören oder anderweitig zu einer Tendenz zu bewegen.
+- **Sensations-Score**: Die Prozentanzeige stellt das Niveau des erkannten Sensationalismus oder der Voreingenommenheit im jeweiligen Artikel bzw. dessen Überschrift dar. Ein roter Indikator deutet auf ein relativ hohes Maß an Manipulation, Framing, Voreingenommenheit oder Fehlinformationen etc. hin.
 
-**Empfehlung**: Ein Score von 50 % oder höher deutet auf eine erhebliche Voreingenommenheit hin. Wir empfehlen, alternative Quellen für eine ausgewogenere Perspektive zu suchen.
+**Empfehlung**: Ein Score von 50 % oder höher deutet auf eine wenig vorliegende neutrale Berichterstattung hin. Wir empfehlen dann eine alternative Informationsquellen zum jeweiligen Thema zu suchen, um eine ausgewogenere Perspektive zu erhalten.
 
 <img src="/assets/screenshots/bbc/bbc-portal.jpg" alt="BBC Portal" width="1000"/>
 
-**Schnelle Einblicke**: Wenn Sie mit der Maus über die Prozentanzeige fahren, wird die detaillierte Analyse des News Deframers angezeigt. Dies bietet oft genügend Kontext, um den vollständigen Artikel zu überspringen.
+**Schnelle Einblicke**: Wenn Sie mit dem Mauszeiger über die Prozentanzeige fahren, wird die detailliertere Analyse des "News Deframers" angezeigt. So können Sie weitere Informationen über die eingesetzten Sprachmittel und Absichten des Autors erfahren. Dies bietet mehr Anhalte dahingehend zu entscheiden, ob der vorliegende Artikel vollständig konsumiert oder aber übersprungen werden soll.
 
 <img src="/assets/screenshots/bbc/portal-hover.png" alt="Portal Hover" width="200"/>
 
 ## Artikel
 
-Sie behalten die volle Kontrolle über Ihr Leseerlebnis. Das Plugin fängt die Navigation zu Artikel-URLs ab. Unabhängig davon, ob Sie über das Portal oder einen direkten Link auf den Artikel zugreifen, präsentiert News Deframer immer zuerst die Analysevorschau, um Sie zu schützen.
+Sie behalten so die volle Kontrolle über Ihr Leseerlebnis. Das Plugin fängt die Navigation zu Artikel-URLs ab. Unabhängig davon, ob Sie über das Portal oder einen direkten Link auf den Artikel zugreifen, präsentiert der "News Deframer" immer zuerst die Analysevorschau, um Sie zu schützen.
 
-**Wichtiger Hinweis**: Das Plugin analysiert derzeit nur die Metadaten des RSS-Feeds (Titel und Beschreibung). Der Inhalt des Artikels bleibt unberührt. Zukünftige Updates können eine Volltext-KI-Analyse beinhalten, die von vertrauenswürdigen menschlichen Prüfern ausgelöst wird.
+**Wichtiger Hinweis**: Das Plugin analysiert derzeit nur die Metadaten des RSS-Feeds (Titel und Beschreibung). Der Inhalt des Artikels bleibt unberührt. Zukünftige Updates können eine Volltext-KI-Analyse integrieren.
 
-- **"Verstecken"-Button**: Schließt das Deframer-Overlay, um den ursprünglichen Artikel auf der Website des Herausgebers anzuzeigen.
-- **Geschützte Ansicht**: Standardmäßig sind der ursprüngliche Titel und die Beschreibung ausgeblendet, um die emotionale Wirkung zu reduzieren. Sie können die Ansicht erweitern, um die Argumentation der KI und den Originaltext zu sehen.
+- **"Verstecken"-Button**: Das schließt das Deframer-Overlay, um den ursprünglichen Artikel auf der Website des Herausgebers unverändert anzuzeigen.
+- **Geschützte Ansicht**: Standardmäßig sind dabei der ursprüngliche Titel und die Beschreibung ausgeblendet, um die emotionale Wirkung zu reduzieren. Sie können die Ansicht erweitern, um die Bewertung der KI und den Originaltext zu sehen.
 
 Artikel 1
 

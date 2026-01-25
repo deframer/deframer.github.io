@@ -4,7 +4,7 @@
 
 ## Portal
 
-**Empfehlung**: Ein Score von 50 % oder höher dient als Warnung. Er deutet auf die Verwendung von Spekulationen, Framing oder Sensationslust hin. Wir empfehlen, den ursprünglichen Titel und die Beschreibung vollständig zu meiden und objektivere Quellen zu suchen. Dies deutet darauf hin, dass professionelle Techniken absichtlich eingesetzt werden, um Ihre Wahrnehmung zu manipulieren.
+**Empfehlung**: Ein Score von 50 % oder höher dient als Warnung. Er deutet auf die Verwendung von Spekulationen, Framing oder Sensationslust hin. Wir empfehlen, den ursprünglichen Titel und die Beschreibung vollständig zu meiden und eine objektivere Quellen zu suchen. Dies deutet darauf hin, dass professionelle Techniken absichtlich eingesetzt werden, um Ihre Wahrnehmung zu manipulieren.
 
 <img src="/assets/screenshots/tagesschau/tagesschau-portal.jpg" alt="Tagesschau Portal" width="1000"/>
 

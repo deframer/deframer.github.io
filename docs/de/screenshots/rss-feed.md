@@ -4,7 +4,7 @@ Dieses Beispiel stammt aus dem Feed `https://rss.nytimes.com/services/xml/rss/ny
 
 ## Screenshots
 
-Es wurde `freshrss` verwendet um die Screenshots zu erzeugen. Deframer neutralisiert den Ton jedes Artikels und stellt sicher, dass er sich wie eine objektive Nachricht liest.
+Es wurde `freshrss` verwendet um die Screenshots zu erzeugen. Der "News Deframer" neutralisiert den Ton jedes Artikels und stellt sicher, dass er sich als objektive Nachricht liest.
 
 | Aktualisiert | Original |
 | :---: | :---: |

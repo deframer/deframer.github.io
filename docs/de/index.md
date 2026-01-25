@@ -1,24 +1,24 @@
 # News Deframer
 
-News Deframer erkennt journalistische Neutralität und Framing in Nachrichtenartikeln. Durch den Einsatz von Large Language Models (LLMs) analysiert es Schlagzeilen und Artikelinhalte.
+Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferierten Nachrichtenseiten. Es springt in die Rolle eines neutralen Berichterstatters und untersucht die in den vorhandenen Nachrichten benutzte Sprache auf journalistische Standards.
 
-Es ist als Dual-Use-Anwendung konzipiert. Es kann als **RSS-Feed-Proxy** oder als **Browser-Plugin** fungieren, um einen „Framing-Score“ und Kontext bereitzustellen, der den Nutzern hilft zu entscheiden, ob ein Artikel lesenswert ist oder ob er stark voreingenommen ist.
+Die Anwendung hat zweit Komponenten. Sie ist ein **RSS-Feed-Proxy** und ein **Browser-Plugin** Nachrichten Feeds werden analysiert und es wird ein „Framing-Score“ erstellt. Dieser hilft dann dem Nutzer zu entscheiden, ob ein Artikel lesenswert ist, oder ob man ihn besser vermeiden sollte.
 
 > **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten.
 
 ## Was dieses Projekt ist und was nicht
 
-- Dies ist **kein** Fake-News-Detektor!
-- Dieses Projekt verwendet ein LLM, das als neutraler Journalist fungiert, um Inhalte auf Voreingenommenheit und die Einhaltung neutraler Sprache zu analysieren.
-- Wir verwenden offene, transparente [Prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts), die auf jedem LLM ausgeführt werden können.
+- Es handelt sich **nicht** um einen Fake-News-Detektor! Es findet keine inhaltliche Überprüfung der Nachrichten statt.
+- Dieses Projekt verwendet ein LLM, das als neutraler Journalist operiert, um Inhalte auf Voreingenommenheit zu prüfen und die Einhaltung neutraler Sprache zu analysieren.
+- Wir verwenden offene [Prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) die auf jedem LLM ausgeführt werden können.
 
-Warum ist Sprachanalyse effektiv?
+Warum ist eine Sprachanalyse geboten und effektiv?
 
-- Wir möchten Ihnen helfen, den Umgang mit fragwürdigen Schlagzeilen zu vermeiden.
-- Desinformation und Spekulation beruhen oft auf Dark Patterns, Clickbait und emotionalen Triggern.
-- Autoren von Desinformation verwenden oft verschleiernde und vage Sprache, um rechtliche Konsequenzen zu vermeiden.
+- Wir möchten dabei helfen, die emotionale Wirkung von Schlagzeilen zu vermindern.
+- Desinformation und Spekulation beruhen oft auf "Dark Patterns, Clickbait und emotionalen Triggern".
+- Autoren von Desinformation verwenden häufig verschleiernde, reißerische und vage Sprachmittel, um rechtliche Konsequenzen zu vermeiden, aber einen bestimmten Effekt beim Leser hervorzurufen.
 
-**WARNUNG**: Es kann zu falsch-positiven / falsch-negativen Ergebnissen kommen.
+**Hinweis**: Es kann zu falsch-positiven / falsch-negativen Ergebnissen kommen.
 
 ## Installation
 
