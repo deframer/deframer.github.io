@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   lint:
@@ -23,7 +23,6 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v22
 
   build:
-    needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -37,7 +36,7 @@ jobs:
           path: site
 
   deploy:
-    needs: build
+    needs: [build, lint]
     if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
