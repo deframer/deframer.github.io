@@ -57,7 +57,7 @@ plugins:
 #  - macros
 
 extra_javascript:
-  - js/language-detect.js
+  - ../js/language-detect.js
 
 markdown_extensions:
   - pymdownx.superfences:
