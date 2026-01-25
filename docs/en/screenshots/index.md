@@ -1,8 +1,6 @@
 # Screenshots
 
-These are showcases for our browser plugin.
-
-## Showcases
+## Browser Plugin
 
 - [BBC](bbc.md)
 - [Tagesschau](tagesschau.md)

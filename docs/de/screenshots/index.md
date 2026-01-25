@@ -1,8 +1,6 @@
 # Screenshots
 
-Beispiele für unser Browser-Plugin.
-
-## Präsentationen
+## Browser-Plugin
 
 - [BBC](bbc.md)
 - [Tagesschau](tagesschau.md)

@@ -4,6 +4,8 @@ News Deframer erkennt journalistische Neutralität und Framing in Nachrichtenart
 
 Es ist als Dual-Use-Anwendung konzipiert. Es kann als **RSS-Feed-Proxy** oder als **Browser-Plugin** fungieren, um einen „Framing-Score“ und Kontext bereitzustellen, der den Nutzern hilft zu entscheiden, ob ein Artikel lesenswert ist oder ob er stark voreingenommen ist.
 
+> **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten.
+
 ## Was dieses Projekt ist und was nicht
 
 - Dies ist **kein** Fake-News-Detektor!
