@@ -22,13 +22,6 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    # - navigation.instant
-    # - navigation.instant.progress
-    # - navigation.instant.preview
-    # - navigation.tracking
-    # - navigation.tabs
-    # - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - toc.integrate
@@ -47,9 +40,17 @@ plugins:
           name: English
           default: true
           build: true
+          nav:
+            - News Deframer: index.md
+            - Screenshots: screenshots.md
+          copyright: Copyright &copy; 2026
         - locale: de
-          name: Deutsch
+          name: Deutsch | German
           build: true
+          nav:
+            - News Deframer: index.md
+            - Screenshots: screenshots.md
+          copyright: Copyright &copy; 2026
   - search
   - glightbox
 
@@ -74,10 +75,3 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - pymdownx.blocks.caption
-
-nav:
-  - News Deframer: index.md
-  - Screenshots: screenshots.md
-
-copyright: News Deframer
-
