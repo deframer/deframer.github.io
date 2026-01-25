@@ -5,6 +5,10 @@
 - [BBC](bbc.md)
 - [Tagesschau](tagesschau.md)
 
+## RSS Feed
+
+- [RSS Feed](rss-feed.md)
+
 ## KI-Konfiguration
 
 Die folgende Konfiguration wurde verwendet, um diese Beispiele zu erstellen:
