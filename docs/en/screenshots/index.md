@@ -15,7 +15,7 @@ The following setup was used to generate these examples:
 - **Software**: [LM Studio](https://lmstudio.ai/) 0.3.39
 - **Model**: [meta-llama-3.1-8b-instruct](https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF)
 
-The system utilizes these [Prompts](https://github.com/deframer/news-deframer//pkg/think/prompts/).
+The system utilizes these [Prompts](https://github.com/deframer/news-deframer/tree/main/pkg/think/prompts/).
 
 **Quote:** *"You are a strictly objective, neutral media analyst and news editor. Your task is to analyze texts (title and description) for journalistic quality, bias, and sensationalism, and to create a neutral version. You must provide specific, concise reasons for every assessment and correction, culminating in an overall summary. [...]"*
 
