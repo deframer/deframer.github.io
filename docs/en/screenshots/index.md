@@ -1,5 +1,7 @@
 # Screenshots
 
+These are showcases for our browser plugin.
+
 ## Showcases
 
 - [BBC](bbc.md)
