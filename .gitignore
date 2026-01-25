@@ -1,4 +1,5 @@
 site/
 .python-venv
 .venv
+.cache
 __pycache__
