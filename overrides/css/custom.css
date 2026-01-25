@@ -1,0 +1,13 @@
+/* Hide the site title text in the sidebar */
+.md-nav__title {
+  font-size: 0;
+}
+
+.md-nav__title .md-logo {
+  /* No special styling needed, the logo is an SVG */
+}
+
+/* Center the footer content */
+.md-footer-meta__inner {
+  justify-content: center;
+}

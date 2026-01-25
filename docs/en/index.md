@@ -22,10 +22,6 @@ Why is language analysis effective?
 
 Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md).
 
-## Overview
-
-- [TODO / Status](https://github.com/deframer/news-deframer/blob/main/TODO.md)
-
 ## Resources
 
 - [Source Code](https://github.com/deframer/news-deframer/)

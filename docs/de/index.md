@@ -22,10 +22,6 @@ Warum ist Sprachanalyse effektiv?
 
 Richten Sie Ihre eigene [Instanz](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md) ein.
 
-## Übersicht
-
-- [TODO / Status](https://github.com/deframer/news-deframer/blob/main/TODO.md)
-
 ## Ressourcen
 
 - [Quellcode](https://github.com/deframer/news-deframer/)

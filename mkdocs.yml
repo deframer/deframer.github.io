@@ -4,6 +4,9 @@ site_url: https://deframer.github.io
 
 theme:
   name: material
+  custom_dir: overrides
+  favicon: assets/icon.svg
+  logo: assets/icon.svg
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -19,13 +22,6 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    # - navigation.instant
-    # - navigation.instant.progress
-    # - navigation.instant.preview
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - toc.integrate
@@ -44,18 +40,29 @@ plugins:
           name: English
           default: true
           build: true
+          nav:
+            - News Deframer: index.md
+            - Screenshots:  screenshots/index.md
+            - Status: todo.md
+            - License: license.md
+          copyright: Copyright &copy; 2026
         - locale: de
-          name: Deutsch
+          name: Deutsch | German
           build: true
+          nav:
+            - News Deframer: index.md
+            - Screenshots:  screenshots/index.md
+            - Status: todo.md
+            - Lizenz: license.md
+          copyright: Copyright &copy; 2026
   - search
-  # - tags
-  - drawio_file
   - glightbox
-#  - with-pdf # https://github.com/orzih/mkdocs-with-pdf/tree/master
-#  - macros
 
 extra_javascript:
   - js/language-detect.js
+
+extra_css:
+  - css/custom.css
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -72,9 +79,3 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - pymdownx.blocks.caption
-
-nav:
-  - Home:
-      - Start: index.md
-#   - Tags: tags.md
-
