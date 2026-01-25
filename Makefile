@@ -21,4 +21,7 @@ lint:
 	docker run --rm -v "$$(pwd):/workdir" davidanson/markdownlint-cli2:latest
 
 lint-fix:
-	docker run --rm --user "$$(id -u):$$(id -g)" -v "$$(pwd):/workdir" davidanson/markdownlint-cli2:latest --fix
+	docker run --rm --user "$$(id -u):$$(id -g)" -v "$$(pwd):/work-dir" davidanson/markdownlint-cli2:latest --fix
+
+quant:
+	-find docs -name "*.png" -exec pngquant --force --ext .png --quality 65-80 {} +
