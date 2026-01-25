@@ -4,6 +4,8 @@ site_url: https://deframer.github.io
 
 theme:
   name: material
+  favicon: assets/icon.svg
+  logo: assets/icon.svg
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -76,5 +78,6 @@ markdown_extensions:
 nav:
   - Home:
       - Start: index.md
+      - Screenshots: screenshots.md
 #   - Tags: tags.md
 

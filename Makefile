@@ -1,3 +1,7 @@
+VENV := .venv
+export VIRTUAL_ENV := $(CURDIR)/$(VENV)
+export PATH := $(VIRTUAL_ENV)/bin:$(PATH)
+
 all:
 	@echo all
 
@@ -5,12 +9,10 @@ sync:
 	uv sync
 
 build:
-	. .venv/bin/activate && \
-	 	mkdocs build
+	mkdocs build
 
 serve:
-	 . .venv/bin/activate && \
-	 	mkdocs serve -a 0.0.0.0:8000
+	mkdocs serve -a 0.0.0.0:8000
 
 clean:
 	rm -rf site .env
