@@ -8,6 +8,5 @@ dependencies = [
     "mkdocs",
     "mkdocs-material",
     "mkdocs-glightbox",
-    "mkdocs-drawio-file",
     "mkdocs-static-i18n",
 ]

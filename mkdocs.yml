@@ -25,10 +25,10 @@ theme:
     # - navigation.instant
     # - navigation.instant.progress
     # - navigation.instant.preview
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - toc.integrate
@@ -51,11 +51,7 @@ plugins:
           name: Deutsch
           build: true
   - search
-  # - tags
-  - drawio_file
   - glightbox
-#  - with-pdf # https://github.com/orzih/mkdocs-with-pdf/tree/master
-#  - macros
 
 extra_javascript:
   - js/language-detect.js
@@ -80,8 +76,8 @@ markdown_extensions:
   - pymdownx.blocks.caption
 
 nav:
-  - Home:
-      - Start: index.md
-      - Screenshots: screenshots.md
-#   - Tags: tags.md
+  - News Deframer: index.md
+  - Screenshots: screenshots.md
+
+copyright: News Deframer
 
