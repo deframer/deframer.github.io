@@ -1,10 +1,23 @@
 # News Deframer
 
-News Deframer will detect journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it analyzes the headlines and bodies.
-
-It is implemented as dual use. It can act as an **RSS Feed Proxy** or as a **browser plugin** to provide a "framing score" and context, helping users decide if an article is worth reading or if it is heavily biased.
+News Deframer will detect journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it analyzes the news headlines. It can act as an **RSS Feed Proxy** or as a **browser plugin**.
 
 > **Note:** We are looking for a [Sponsor](sponsors.md) to host this project in the US.
+
+## We replace the portal page
+
+An Ad-Blocker blocks ads you don't want. The News Deframer vaporizes the mental impact of clickbait by replacing the portal page of any major news network with neutral language.
+
+A score of 50% or higher suggests significant bias. In other words: A trained professional journalist is using words to mess with you. The title or description is clickbait, framing, hyper stimulus or pushing an agenda.
+
+| | |
+| :---: | :---: |
+| **Apollo News** | **Heise** |
+| <img src="/assets/screenshots/portal/apollo-news.png" alt="Apollo News" width="500"/> | <img src="/assets/screenshots/portal/heise.png" alt="Heise" width="500"/> |
+| **BBC** | **Tagesschau** |
+| <img src="/assets/screenshots/portal/bbc.png" alt="BBC" width="500"/> | <img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau" width="500"/> |
+| **Spiegel** | **NY Times** |
+| <img src="/assets/screenshots/portal/spiegel.png" alt="Spiegel" width="500"/> | <img src="/assets/screenshots/portal/nytimes.png" alt="NY Times" width="500"/> |
 
 ## What this project is and is not
 
@@ -12,7 +25,7 @@ It is implemented as dual use. It can act as an **RSS Feed Proxy** or as a **bro
 - This project uses an LLM acting as a neutral journalist to analyze content for bias and adherence to neutral language.
 - We use open transparent [prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) that can be run on any LLM.
 
-Why is language analysis effective?
+## Why is language analysis effective
 
 - We aim to help you avoid engaging with questionable headlines.
 - Misinformation and speculation often rely on dark patterns, clickbait, and emotional triggers.
