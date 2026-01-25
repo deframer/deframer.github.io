@@ -61,11 +61,11 @@ plugins:
           copyright: Copyright &copy; 2026
   - search
   - glightbox
-  - social:
-      cards_layout_options:
-        # background_color: "#000000"
-        # color: "#ffffff"
-        font_family: Roboto
+  # - social:
+  #     cards_layout_options:
+  #       # background_color: "#000000"
+  #       # color: "#ffffff"
+  #       font_family: Roboto
 
 extra_javascript:
   - js/language-detect.js

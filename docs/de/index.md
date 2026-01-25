@@ -1,8 +1,3 @@
----
-title: Journalistische Neutralität
-description: Der News Deframer erkennt journalistische Neutralität und Framing in Nachrichtenartikeln mithilfe von LLMs.
----
-
 # News Deframer
 
 Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferierten Nachrichtenseiten. Mit Hilfe von LLMs analysiert es die Nachrichten Schlagzeilen. Die Anwendung besitzt zwei Verwendungsmöglichkeiten: einen **RSS-Feed-Proxy** und ein **Browser-Plugin**.
