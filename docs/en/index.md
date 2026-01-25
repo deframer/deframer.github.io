@@ -1,3 +1,8 @@
+---
+title: Journalistic neutrality analysis
+description: News Deframer will detect journalistic neutrality and framing in news articles by using LLMs.
+---
+
 # News Deframer
 
 News Deframer will detect journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it analyzes the news headlines. It can act as an **RSS Feed Proxy** or as a **browser plugin**.
