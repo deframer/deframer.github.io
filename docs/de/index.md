@@ -19,7 +19,6 @@ Ein Wert von 50% oder höher deutet auf signifikantes Framing durch Sprache hin.
 | **Spiegel** | **NY Times** |
 | <img src="/assets/screenshots/portal/spiegel.png" alt="Spiegel" width="500"/> | <img src="/assets/screenshots/portal/nytimes.png" alt="NY Times" width="500"/> |
 
-
 ## Was dieses Projekt ist und was nicht
 
 - Es handelt sich **nicht** um einen Fake-News-Detektor! Es findet keine inhaltliche Überprüfung der Nachrichten statt.

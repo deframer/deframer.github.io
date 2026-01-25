@@ -19,7 +19,6 @@ A score of 50% or higher suggests significant bias. We recommend seeking alterna
 | **Spiegel** | **NY Times** |
 | <img src="/assets/screenshots/portal/spiegel.png" alt="Spiegel" width="500"/> | <img src="/assets/screenshots/portal/nytimes.png" alt="NY Times" width="500"/> |
 
-
 ## What this project is and is not
 
 - This is **not** a fake news detector!
