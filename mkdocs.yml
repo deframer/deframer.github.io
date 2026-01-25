@@ -4,6 +4,7 @@ site_url: https://deframer.github.io
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/icon.svg
   logo: assets/icon.svg
   palette:
@@ -57,7 +58,10 @@ plugins:
 #  - macros
 
 extra_javascript:
-  - ../js/language-detect.js
+  - js/language-detect.js
+
+extra_css:
+  - css/custom.css
 
 markdown_extensions:
   - pymdownx.superfences:
