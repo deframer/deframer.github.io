@@ -44,6 +44,8 @@ plugins:
             - News Deframer: index.md
             - Screenshots:  screenshots/index.md
             - Status: todo.md
+            - Sponsors: sponsors.md
+            - Links: links.md
             - License: license.md
           copyright: Copyright &copy; 2026
         - locale: de
@@ -53,6 +55,8 @@ plugins:
             - News Deframer: index.md
             - Screenshots:  screenshots/index.md
             - Status: todo.md
+            - Sponsoren: sponsors.md
+            - Links: links.md
             - Lizenz: license.md
           copyright: Copyright &copy; 2026
   - search
