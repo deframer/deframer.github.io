@@ -7,19 +7,21 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
+      media: "(prefers-color-scheme: light)"
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      media: "(prefers-color-scheme: dark)"
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.instant.preview
+    # - navigation.instant
+    # - navigation.instant.progress
+    # - navigation.instant.preview
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs
@@ -34,12 +36,26 @@ theme:
     - content.code.copy
 
 plugins:
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
   - search
-  - tags
+  # - tags
   - drawio_file
   - glightbox
 #  - with-pdf # https://github.com/orzih/mkdocs-with-pdf/tree/master
 #  - macros
+
+extra_javascript:
+  - js/language-detect.js
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -60,4 +76,5 @@ markdown_extensions:
 nav:
   - Home:
       - Start: index.md
-  - Tags: tags.md
+#   - Tags: tags.md
+
