@@ -8,7 +8,7 @@ Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferiert
 
 Ein Werbeblocker blockiert Werbung, die Sie nicht wollen. Der News Deframer neutralisiert die mentale Wirkung von Clickbait, indem er die Portalseite jedes großen Nachrichtennetzwerks durch neutrale Sprache ersetzt.
 
-Ein Wert von 50% oder höher deutet auf signifikantes Framing durch Sprache hin. Wir empfehlen, alternative Quellen für eine ausgewogenere Perspektive zu suchen. Mit anderen Worten: Ein geschulter Journalist benutzt Worte, um Sie zu manipulieren. Dies ist sehr wahrscheinlich nicht der informative Teil der Nachrichten. Der Titel oder die Beschreibung ist Clickbait, Framing, Reizüberflutung oder dient einer Agenda.
+Ein Wert von 50% oder höher deutet auf signifikantes Framing durch Sprache hin. Mit anderen Worten: Sehr wahrscheinlich versucht ein geschulter Journalist Sie mit Worte zu manipulieren. Der Titel oder die Beschreibung ist Clickbait, Framing, Reizüberflutung oder dient einer Agenda.
 
 | | |
 | :---: | :---: |

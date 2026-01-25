@@ -8,7 +8,7 @@ News Deframer will detect journalistic neutrality and framing in news articles. 
 
 An Ad-Blocker blocks ads you don't want. The News Deframer vaporizes the mental impact of clickbait by replacing the portal page of any major news network with neutral language.
 
-A score of 50% or higher suggests significant bias. We recommend seeking alternative sources for a more balanced perspective. In other words. A trained professional journalist is using words to mess with you. This is very likely not the news part of news. The title ot the description is clickbait, framing, hyper stimulus or pushing an agenda.
+A score of 50% or higher suggests significant bias. In other words: A trained professional journalist is using words to mess with you. The title or description is clickbait, framing, hyper stimulus or pushing an agenda.
 
 | | |
 | :---: | :---: |
