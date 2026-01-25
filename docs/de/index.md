@@ -25,7 +25,7 @@ Ein Wert von 50% oder höher deutet auf signifikantes Framing durch Sprache hin.
 - Dieses Projekt verwendet ein LLM, das als neutraler Journalist operiert, um Inhalte auf Voreingenommenheit zu prüfen und die Einhaltung neutraler Sprache zu analysieren.
 - Wir verwenden offene [Prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) die auf jedem LLM ausgeführt werden können.
 
-Warum ist eine Sprachanalyse geboten und effektiv?
+## Warum ist eine Sprachanalyse geboten und effektiv
 
 - Wir möchten dabei helfen, die emotionale Wirkung von Schlagzeilen zu vermindern.
 - Desinformation und Spekulation beruhen oft auf "Dark Patterns, Clickbait und emotionalen Triggern".

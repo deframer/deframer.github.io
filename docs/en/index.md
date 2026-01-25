@@ -25,7 +25,7 @@ A score of 50% or higher suggests significant bias. In other words: A trained pr
 - This project uses an LLM acting as a neutral journalist to analyze content for bias and adherence to neutral language.
 - We use open transparent [prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) that can be run on any LLM.
 
-Why is language analysis effective?
+## Why is language analysis effective
 
 - We aim to help you avoid engaging with questionable headlines.
 - Misinformation and speculation often rely on dark patterns, clickbait, and emotional triggers.
