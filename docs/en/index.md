@@ -4,9 +4,15 @@ description: News Deframer will detect journalistic neutrality and framing in ne
 --- -->
 # News Deframer
 
+> :mega: **Note:** We are looking for a [Sponsor](sponsors.md) to host this project in the US. :flag_us: :statue_of_liberty:
+
 News Deframer will detect journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it analyzes the news headlines. It can act as an **RSS Feed Proxy** or as a **browser plugin**.
 
-> **Note:** We are looking for a [Sponsor](sponsors.md) to host this project in the US.
+## Video
+
+[![News Deframer Promo](https://img.youtube.com/vi/bhFg1X9CtE4/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=bhFg1X9CtE4&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
+
+[:fontawesome-brands-youtube: Watch on YouTube](https://www.youtube.com/watch?v=bhFg1X9CtE4){ target="_blank" }
 
 ## We replace the portal page
 
