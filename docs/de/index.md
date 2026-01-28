@@ -1,8 +1,14 @@
 # News Deframer
 
+> :mega: **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten. :flag_us: :statue_of_liberty:
+
 Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferierten Nachrichtenseiten. Mit Hilfe von LLMs analysiert es die Nachrichten Schlagzeilen. Die Anwendung besitzt zwei Verwendungsmöglichkeiten: einen **RSS-Feed-Proxy** und ein **Browser-Plugin**.
 
-> **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten.
+## Video
+
+[![News Deframer Promo](https://img.youtube.com/vi/flORP9WqgSw/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=flORP9WqgSw&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
+
+[:fontawesome-brands-youtube: Auf YouTube anschauen](https://www.youtube.com/watch?v=flORP9WqgSw){ target="_blank" }
 
 ## Wir ersetzen die Portalseite
 
