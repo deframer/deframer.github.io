@@ -10,9 +10,9 @@ News Deframer will detect journalistic neutrality and framing in news articles. 
 
 ## Video
 
-[![News Deframer Promo](https://img.youtube.com/vi/bhFg1X9CtE4/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=bhFg1X9CtE4&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
+[![News Deframer Promo](https://img.youtube.com/vi/japh9-H29qY/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=japh9-H29qY&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
 
-[:fontawesome-brands-youtube: Watch on YouTube](https://www.youtube.com/watch?v=bhFg1X9CtE4){ target="_blank" }
+[:fontawesome-brands-youtube: Watch on YouTube](https://www.youtube.com/watch?v=japh9-H29qY){ target="_blank" }
 
 ## We replace the portal page
 

@@ -6,9 +6,9 @@ Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferiert
 
 ## Video
 
-[![News Deframer Promo](https://img.youtube.com/vi/bhFg1X9CtE4/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=bhFg1X9CtE4&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
+[![News Deframer Promo](https://img.youtube.com/vi/flORP9WqgSw/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=flORP9WqgSw&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
 
-[:fontawesome-brands-youtube: Auf YouTube anschauen](https://www.youtube.com/watch?v=bhFg1X9CtE4){ target="_blank" }
+[:fontawesome-brands-youtube: Auf YouTube anschauen](https://www.youtube.com/watch?v=flORP9WqgSw){ target="_blank" }
 
 ## Wir ersetzen die Portalseite
 
