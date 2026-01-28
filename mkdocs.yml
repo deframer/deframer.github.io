@@ -2,6 +2,8 @@ site_name: News Deframer
 
 site_url: https://deframer.github.io
 
+site_description: News Deframer will detect journalistic neutrality and framing in news articles by using LLMs.
+
 theme:
   name: material
   custom_dir: overrides
