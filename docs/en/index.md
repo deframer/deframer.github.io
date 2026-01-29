@@ -45,7 +45,11 @@ A score of 50% or higher suggests significant bias. In other words: A trained pr
 
 ## Installation
 
-Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md).
+Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md){ target="_blank" }.
+
+## Chrome Extension
+
+Install the [Chrome Extension](https://chromewebstore.google.com/detail/ffpibngfmnagagggbjpgjbmehhilfinp){ target="_blank" }.
 
 ## Resources
 

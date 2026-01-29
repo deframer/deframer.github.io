@@ -41,7 +41,11 @@ Ein Wert von 50% oder höher deutet auf signifikantes Framing durch Sprache hin.
 
 ## Installation
 
-Richten Sie Ihre eigene [Instanz](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md) ein.
+Richten Sie Ihre eigene [Instanz](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md){ target="_blank" } ein.
+
+## Chrome Erweiterung
+
+Installation der [Chrome Erweiterung](https://chromewebstore.google.com/detail/ffpibngfmnagagggbjpgjbmehhilfinp){ target="_blank" }.
 
 ## Ressourcen
 
