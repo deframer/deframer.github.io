@@ -12,9 +12,8 @@
 - [x] Enhance the parsing of items e.g. media / thumbnails etc.
 - [x] Enhance the handling of exotic feeds e.g. the bbc uses a different feed url then the item URLs.
 - [x] Move to <https://github.com/deframer>
+- [x] Fix support for multiple concurrent workers
 - [ ] Handle empty items / special items e.g. special video news feeds / ads
-- [ ] Fix support for multiple concurrent workers
-- [ ] Valkey Cache (read through)
 - [ ] Make a public instance
 
 ## Webbrowser Plugin
@@ -28,7 +27,7 @@
 - [x] Webbrowser Plugin i18n
 - [ ] Webbrowser Plugin show more data (missing: author, category)
   - [x] pubDate
-- [ ] Webbrowser Plugin i18n support more languages
+- [x] Webbrowser Plugin i18n support more languages
 - [ ] Webbrowser Plugin add tabs or sections
 - [ ] Webbrowser Plugin Admin UI enhancement e.g. show the supported domains / disable the plugin etc.
 - [ ] Try to get a Favicon / Logo from somewhere
@@ -36,7 +35,11 @@
 ## Website
 
 - [x] Website <https://deframer.github.io/>
-- [ ] Video
+- [x] Video
+
+## Trend Mining
+
+- [ ] Create a Repo
 
 ## Future ideas
 
