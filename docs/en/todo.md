@@ -39,8 +39,13 @@
 
 ## Trend Mining
 
-- [ ] Create a Repo
+Trend Mining to broaden user perspectives. Many users are confined to a small set of feeds, creating "blind spots" regarding important local or global events. By visualizing what others are reading, we can help users discover relevant content outside their usual bubble. This approach may be based on the findings in this [PhD Thesis](https://refubium.fu-berlin.de/bitstream/handle/fub188/7212/streibel-diss-online-1.pdf?sequence=1&isAllowed=y).
+
+- [x] Create a Repo
+- [x] Implement basic algorithm in DuckDB
+- [ ] Implement API layer
+- [ ] Create an initial integration / visualization for the Browser Plugin
 
 ## Future ideas
 
-- Implement Trend Mining to broaden user perspectives. Many users are confined to a small set of feeds, creating "blind spots" regarding important local or global events. By visualizing what others are reading, we can help users discover relevant content outside their usual bubble. This approach may be based on the findings in this [PhD Thesis](https://refubium.fu-berlin.de/bitstream/handle/fub188/7212/streibel-diss-online-1.pdf?sequence=1&isAllowed=y).
+- Tell us your ideas!
