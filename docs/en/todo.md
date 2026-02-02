@@ -43,6 +43,8 @@ Trend Mining to broaden user perspectives. Many users are confined to a small se
 
 - [x] Create a Repo
 - [x] Implement basic algorithm in DuckDB
+- [x] Transition to `pg_duckdb` and test SQL Statements
+- [ ] Test if we need custom NLP stop words per feed e.g. `tageschau` or `apollo` they talk a lot about themselves
 - [ ] Implement API layer
 - [ ] Create an initial integration / visualization for the Browser Plugin
 
