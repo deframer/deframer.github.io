@@ -44,9 +44,11 @@ Trend Mining to broaden user perspectives. Many users are confined to a small se
 - [x] Create a Repo
 - [x] Implement basic algorithm in DuckDB
 - [x] Transition to `pg_duckdb` and test SQL Statements
-- [ ] Test if we need custom NLP stop words per feed e.g. `tageschau` or `apollo` they talk a lot about themselves
+- [x] Implemented Utility / Frequency function as view
+- [x] Create an initial integration / visualization for the Browser Plugin
+- [ ] Use spaCy for NER (Named Entity Recognition) like person names, locations etc
+- [ ] Enhance spaCy model loader - at the moment we do a pip call to keep the Docker image slim we might need to enhance it for the NER
 - [ ] Implement API layer
-- [ ] Create an initial integration / visualization for the Browser Plugin
 
 ## Future ideas
 
