@@ -44,8 +44,10 @@ plugins:
           build: true
           nav:
             - News Deframer: index.md
-            - Screenshots:  screenshots/index.md
+            - Showcases:  showcases/index.md
+            - Trends:  trends/index.md
             - Status: todo.md
+            - RSS Proxy:  rss-feed.md
             - Sponsors: sponsors.md
             - Links: links.md
             - License: license.md
@@ -55,8 +57,10 @@ plugins:
           build: true
           nav:
             - News Deframer: index.md
-            - Screenshots:  screenshots/index.md
+            - Showcases:  showcases/index.md
+            - Trends:  trends/index.md
             - Status: todo.md
+            - RSS Proxy:  rss-feed.md
             - Sponsoren: sponsors.md
             - Links: links.md
             - Lizenz: license.md
