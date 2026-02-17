@@ -1,18 +1,18 @@
-# RSS-Feed
+# RSS Feed
 
-Dieses Beispiel stammt aus dem Feed `https://rss.nytimes.com/services/xml/rss/nyt/World.xml`.
+This example is derived from the `https://rss.nytimes.com/services/xml/rss/nyt/World.xml` feed.
 
 ## Screenshots
 
-Es wurde `freshrss` verwendet um die Screenshots zu erzeugen. Der "News Deframer" neutralisiert den Ton jedes Artikels und stellt sicher, dass er sich als objektive Nachricht liest.
+The item is rendered by [freshrss](https://www.freshrss.org/){ target="_blank" }. Deframer neutralizes the tone of every article, ensuring it reads like objective news.
 
-| Aktualisiert | Original |
+| Deframed | Original |
 | :---: | :---: |
-| <img src="/assets/screenshots/rss-feed/updated.jpg" alt="Aktualisiert" width="600"/> | <img src="/assets/screenshots/rss-feed/original.jpg" alt="Original" width="600"/> |
+| <img src="/assets/screenshots/rss-feed/deframed.jpg" alt="Deframed" width="600"/> | <img src="/assets/screenshots/rss-feed/original.jpg" alt="Original" width="600"/> |
 
-## Proxy XML-Feed
+## Proxy XML Feed
 
-Die KI analysiert den Upstream-Inhalt, liefert eine Begründung für ihre Bewertung und führt notwendige Ersetzungen durch, um die Sprache zu entschärfen.
+The AI analyzes the upstream content, provides reasoning for its assessment, and performs necessary replacements to neutralize the tone.
 
 ```xml
 <item>
@@ -35,7 +35,6 @@ Die KI analysiert den Upstream-Inhalt, liefert eine Begründung für ihre Bewert
     <deframer:framing>0.6</deframer:framing>
     <deframer:framing_reason>Implies negative consequences and political interference.</deframer:framing_reason>
     <deframer:hyper_stimulus_reason>No excessive capitalization, punctuation, or emotional language.</deframer:hyper_stimulus_reason>
-    <deframer:overall>0.6</deframer:overall>
     <deframer:overall_reason>The text speculates on hypothetical political influence and its economic consequences, using informal language.</deframer:overall_reason>
     <deframer:persuasive_reason>No direct call to action or sales language.</deframer:persuasive_reason>
     <deframer:speculative_content>0.7</deframer:speculative_content>

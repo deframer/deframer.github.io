@@ -1,18 +1,18 @@
-# RSS Feed
+# RSS-Feed
 
-This example is derived from the `https://rss.nytimes.com/services/xml/rss/nyt/World.xml` feed.
+Dieses Beispiel stammt aus dem Feed `https://rss.nytimes.com/services/xml/rss/nyt/World.xml`.
 
 ## Screenshots
 
-The item is rendered by `freshrss`. Deframer neutralizes the tone of every article, ensuring it reads like objective news.
+Es wurde [freshrss](https://www.freshrss.org/){ target="_blank" } verwendet um die Screenshots zu erzeugen. Der "News Deframer" neutralisiert den Ton jedes Artikels und stellt sicher, dass er sich als objektive Nachricht liest.
 
-| Updated | Original |
+| Deframed | Original |
 | :---: | :---: |
-| <img src="/assets/screenshots/rss-feed/updated.jpg" alt="Updated" width="600"/> | <img src="/assets/screenshots/rss-feed/original.jpg" alt="Original" width="600"/> |
+| <img src="/assets/screenshots/rss-feed/deframed.jpg" alt="Deframed" width="600"/> | <img src="/assets/screenshots/rss-feed/original.jpg" alt="Original" width="600"/> |
 
-## Proxy XML Feed
+## Proxy XML-Feed
 
-The AI analyzes the upstream content, provides reasoning for its assessment, and performs necessary replacements to neutralize the tone.
+Die KI analysiert den Feed, liefert eine Begründung für ihre Bewertung und erzeugt eine neue Schlagzeile, um die Sprache zu entschärfen.
 
 ```xml
 <item>
@@ -35,6 +35,7 @@ The AI analyzes the upstream content, provides reasoning for its assessment, and
     <deframer:framing>0.6</deframer:framing>
     <deframer:framing_reason>Implies negative consequences and political interference.</deframer:framing_reason>
     <deframer:hyper_stimulus_reason>No excessive capitalization, punctuation, or emotional language.</deframer:hyper_stimulus_reason>
+    <deframer:overall>0.6</deframer:overall>
     <deframer:overall_reason>The text speculates on hypothetical political influence and its economic consequences, using informal language.</deframer:overall_reason>
     <deframer:persuasive_reason>No direct call to action or sales language.</deframer:persuasive_reason>
     <deframer:speculative_content>0.7</deframer:speculative_content>

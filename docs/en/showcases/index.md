@@ -2,8 +2,8 @@
 
 ## Browser Plugin
 
-- [BBC](bbc.md)
-- [Tagesschau](tagesschau.md)
+- [The New York Times](nytimes.md)
+- [New York Post](nypost.md)
 
 ## RSS Feed
 
@@ -14,8 +14,8 @@
 The following setup was used to generate these examples:
 
 - **Hardware**: Mac Mini M1 (16GB RAM), running macOS Tahoe 26.2
-- **Software**: [LM Studio](https://lmstudio.ai/) 0.3.39
-- **Model**: [meta-llama-3.1-8b-instruct](https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF)
+- **Software**: [LM Studio](https://lmstudio.ai/) 0.4.2
+- **Modell**: [ministral-3-3b](https://huggingface.co/lmstudio-community/Ministral-3-3B-Instruct-2512-GGUF)
 
 The system utilizes these [Prompts](https://github.com/deframer/news-deframer/tree/main/pkg/think/prompts/).
 

@@ -6,7 +6,22 @@ description: News Deframer will detect journalistic neutrality and framing in ne
 
 > :mega: **Note:** We are looking for a [Sponsor](sponsors.md) to host this project in the US. :flag_us: :statue_of_liberty:
 
-News Deframer will detect journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it analyzes the news headlines. It can act as an **RSS Feed Proxy** or as a **browser plugin**.
+News Deframer will detect journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it analyzes the news headlines.
+
+> An Ad-Blocker blocks ads you don't want. The News Deframer vaporizes the mental impact of clickbait by replacing the portal page of any major news network with neutral language.
+
+## What we do
+
+- We [replace](showcases/index.md) the portal page
+- Every Headline is replaced with neutral language (avoiding clickbait, hyper stimulus, persuasion and framing)
+- We have build in [Trend Analysis](trends/index.md) / detection of talking points
+- You can compare major networks e.g. "The New York Times" with the "New York Post" or CNN with Foxnews.
+- One click and you get the original article / original portal page.
+
+| | |
+| :---: | :---: |
+| <img src="/assets/screenshots/portal/nytimes.png" alt="The New York Times" width="500"/>| <img src="/assets/screenshots/portal/nypost.png" alt="New York Post" width="500"/> |
+| [Open Showcase: The New York Times](showcases/nytimes.md) | [Open Showcase: New York Post](showcases/nypost.md) |
 
 ## Video
 
@@ -14,38 +29,31 @@ News Deframer will detect journalistic neutrality and framing in news articles. 
 
 [:fontawesome-brands-youtube: Watch on YouTube](https://www.youtube.com/watch?v=japh9-H29qY){ target="_blank" }
 
-## We replace the portal page
-
-An Ad-Blocker blocks ads you don't want. The News Deframer vaporizes the mental impact of clickbait by replacing the portal page of any major news network with neutral language.
-
-A score of 50% or higher suggests significant bias. In other words: A trained professional journalist is using words to mess with you and the AI will telly you where and how. The title or the description is clickbait, framing, hyper stimulus or pushing an agenda.
-
-| | |
-| :---: | :---: |
-| **Apollo News** | **Heise** |
-| <img src="/assets/screenshots/portal/apollo-news.png" alt="Apollo News" width="500"/> | <img src="/assets/screenshots/portal/heise.png" alt="Heise" width="500"/> |
-| **BBC** | **Tagesschau** |
-| <img src="/assets/screenshots/portal/bbc.png" alt="BBC" width="500"/> | <img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau" width="500"/> |
-| **Spiegel** | **NY Times** |
-| <img src="/assets/screenshots/portal/spiegel.png" alt="Spiegel" width="500"/> | <img src="/assets/screenshots/portal/nytimes.png" alt="NY Times" width="500"/> |
-
 ## What this project is and is not
 
 - This is **not** a fake news detector!
 - This project uses an LLM acting as a neutral journalist to analyze content for bias and adherence to neutral language.
 - We use open transparent [prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) that can be run on any LLM.
 
-## Why is language analysis effective
+## Language analysis
+
+Why language analysis is effective
 
 - We aim to help you avoid engaging with questionable headlines.
 - Misinformation and speculation often rely on dark patterns, clickbait, and emotional triggers.
 - Authors of misinformation often use disguise and vague language to avoid legal repercussions.
 
-**WARNING**: We can have false positives / negatives.
+**WARNING**: We **will** have false positives / negatives. Worst case - you don't read an article of your favorite news source or clickbait article slips through.
 
 ## Installation
 
 Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md){ target="_blank" }.
+
+## How it works.
+
+News deframer is basically a drop in replacement RSS Feed proxy. We get the headlines from the [RSS](rss-feed.md) of a portal.
+We take the feed and replace it's content with a deframed version. The updated data is also used for the **browser plugin** that
+replace the portal of this news source.
 
 ## Chrome Extension
 
