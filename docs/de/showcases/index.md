@@ -1,9 +1,7 @@
-# Screenshots
+# Showcases
 
-## Browser-Plugin
-
-- [BBC](bbc.md)
 - [Tagesschau](tagesschau.md)
+- [Apollo News](apollo-news.md)
 
 ## RSS Feed
 
@@ -14,8 +12,8 @@
 Die folgende Konfiguration wurde verwendet, um diese Beispiele zu erstellen:
 
 - **Hardware**: Mac Mini M1 (16GB RAM), unter macOS Tahoe 26.2
-- **Software**: [LM Studio](https://lmstudio.ai/) 0.3.39
-- **Modell**: [meta-llama-3.1-8b-instruct](https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF)
+- **Software**: [LM Studio](https://lmstudio.ai/) 0.4.2
+- **Modell**: [ministral-3-3b](https://huggingface.co/lmstudio-community/Ministral-3-3B-Instruct-2512-GGUF)
 
 Das System verwendet diese [Prompts](https://github.com/deframer/news-deframer/tree/main/pkg/think/prompts/).
 

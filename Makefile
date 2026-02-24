@@ -12,7 +12,7 @@ build:
 	mkdocs build
 
 serve:
-	mkdocs serve -a 0.0.0.0:8000
+	mkdocs serve --livereload -a 0.0.0.0:8000 -w overrides
 
 clean:
 	rm -rf site .env

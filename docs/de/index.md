@@ -1,54 +1,61 @@
 # News Deframer
 
-> :mega: **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten. :flag_us: :statue_of_liberty:
+> **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten.
 
-Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferierten Nachrichtenseiten. Mit Hilfe von LLMs analysiert es die Nachrichten Schlagzeilen. Die Anwendung besitzt zwei Verwendungsmöglichkeiten: einen **RSS-Feed-Proxy** und ein **Browser-Plugin**.
+Der „News Deframer“ ist ein sprachliches Analysetool für Ihre bevorzugten Nachrichtenseiten. Mithilfe von LLMs analysiert es Schlagzeilen und formuliert sie in neutraler Sprache neu.
+
+> Ein Werbeblocker blockiert unerwünschte Werbung. Der News Deframer reduziert die mentale Wirkung von Clickbait, indem er die Portalseite großer Nachrichtenangebote durch neutral formulierte Inhalte ersetzt.
+
+## Was wir tun
+
+* Wir [ersetzen](showcases/index.md) die Portalseite.
+* Jede Schlagzeile wird in neutrale Sprache überführt (Reduktion von Clickbait, Reizüberflutung, Suggestion und Framing).
+* Integrierte [Trendanalyse](trends/index.md) zur Erkennung von Talking Points.
+* Vergleich verschiedener Nachrichtenportale, z. B. "Tagesschau" mit "Apollo News" oder "Bild" mit dem "Bayerischen Rundfunk".
+* Per Klick gelangen Sie zurück zum Originalartikel bzw. zur ursprünglichen Portalseite.
+
+|                                                                                     |                                                                                       |
+| :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau" width="500"/> | <img src="/assets/screenshots/portal/apollo-news.png" alt="Apollo News" width="500"/> |
+|                   [Showcase: Tagesschau](showcases/tagesschau.md)                   |                   [Showcase: Apollo News](showcases/apollo-news.md)                   |
 
 ## Video
 
 [![News Deframer Promo](https://img.youtube.com/vi/flORP9WqgSw/maxresdefault.jpg){ width="500" }](https://www.youtube.com/watch?v=flORP9WqgSw&vq=hd1080 "News Deframer Promo"){ .glightbox data-width="100%" data-height="100%" }
 
-[:fontawesome-brands-youtube: Auf YouTube anschauen](https://www.youtube.com/watch?v=flORP9WqgSw){ target="_blank" }
+[Auf YouTube ansehen](https://www.youtube.com/watch?v=flORP9WqgSw){ target="_blank" }
 
-## Wir ersetzen die Portalseite
+## Was dieses Projekt ist – und was nicht
 
-Ein Werbeblocker blockiert Werbung, die Sie nicht wollen. Der News Deframer neutralisiert die mentale Wirkung von Clickbait, indem er die Portalseite jedes großen Nachrichtennetzwerks durch neutrale Sprache ersetzt.
+* **Kein** Fake-News-Detektor: Es findet keine inhaltliche Faktenprüfung statt.
+* Ein LLM agiert als neutraler Journalist und analysiert Inhalte hinsichtlich sprachlicher Voreingenommenheit und Neutralität.
+* Es werden offene [Prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) verwendet, die mit unterschiedlichen LLMs ausgeführt werden können.
 
-Ein Wert von 50% oder höher deutet auf signifikantes Framing durch Sprache hin. Mit anderen Worten: Sehr wahrscheinlich versucht ein geschulter Journalist Sie mit Worte zu manipulieren und die KI sagt wo und wie. Der Titel oder die Beschreibung sind Clickbait, Framing, Reizüberflutung oder dient einer Agenda.
+## Sprachanalyse
 
-| | |
-| :---: | :---: |
-| **Apollo News** | **Heise** |
-| <img src="/assets/screenshots/portal/apollo-news.png" alt="Apollo News" width="500"/> | <img src="/assets/screenshots/portal/heise.png" alt="Heise" width="500"/> |
-| **BBC** | **Tagesschau** |
-| <img src="/assets/screenshots/portal/bbc.png" alt="BBC" width="500"/> | <img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau" width="500"/> |
-| **Spiegel** | **NY Times** |
-| <img src="/assets/screenshots/portal/spiegel.png" alt="Spiegel" width="500"/> | <img src="/assets/screenshots/portal/nytimes.png" alt="NY Times" width="500"/> |
+Warum Sprachanalyse wirksam ist:
 
-## Was dieses Projekt ist und was nicht
+* Ziel ist es, die emotionale Wirkung von Schlagzeilen zu reduzieren.
+* Desinformation und Spekulation basieren häufig auf Dark Patterns, Clickbait und emotionalen Triggern.
+* Verfasser von Desinformation nutzen oft reißerische, vage oder verschleiernde Formulierungen, um rechtliche Konsequenzen zu vermeiden und dennoch eine bestimmte Wirkung zu erzielen.
 
-- Es handelt sich **nicht** um einen Fake-News-Detektor! Es findet keine inhaltliche Überprüfung der Nachrichten statt.
-- Dieses Projekt verwendet ein LLM, das als neutraler Journalist operiert, um Inhalte auf Voreingenommenheit zu prüfen und die Einhaltung neutraler Sprache zu analysieren.
-- Wir verwenden offene [Prompts](https://github.com/deframer/news-deframer/blob/main/pkg/think/prompts) die auf jedem LLM ausgeführt werden können.
-
-## Warum ist eine Sprachanalyse geboten und effektiv
-
-- Wir möchten dabei helfen, die emotionale Wirkung von Schlagzeilen zu vermindern.
-- Desinformation und Spekulation beruhen oft auf "Dark Patterns, Clickbait und emotionalen Triggern".
-- Autoren von Desinformation verwenden häufig verschleiernde, reißerische und vage Sprachmittel, um rechtliche Konsequenzen zu vermeiden, aber einen bestimmten Effekt beim Leser hervorzurufen.
-
-**Hinweis**: Es kann zu falsch-positiven / falsch-negativen Ergebnissen kommen.
+**Warnung:** Durch den Einsatz eines LLMs kann es zu falsch-positiven oder falsch-negativen Ergebnissen kommen. Im ungünstigsten Fall wird ein qualitativ hochwertiger Artikel übersehen oder ein Clickbait-Artikel nicht erkannt.
 
 ## Installation
 
 Richten Sie Ihre eigene [Instanz](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md){ target="_blank" } ein.
 
-## Chrome Erweiterung
+## Funktionsweise
 
-Installation der [Chrome Erweiterung](https://chromewebstore.google.com/detail/ffpibngfmnagagggbjpgjbmehhilfinp){ target="_blank" }.
+Der News Deframer fungiert als RSS-Feed-Proxy. Die Schlagzeilen werden aus dem [RSS](rss-feed.md) eines Portals bezogen.
+Der Feed wird verarbeitet und durch neutral formulierte Schlagzeilen ersetzt. Diese aktualisierten Daten werden zudem vom **Browser-Plugin** verwendet, das die Portalseite der jeweiligen Nachrichtenquelle ersetzt.
+
+## Chrome-Erweiterung
+
+Installation der [Chrome-Erweiterung](https://chromewebstore.google.com/detail/ffpibngfmnagagggbjpgjbmehhilfinp){ target="_blank" }.
 
 ## Ressourcen
 
-- [Quellcode](https://github.com/deframer/news-deframer/)
-- [Fehlerbericht](https://github.com/deframer/news-deframer/issues)
-- [Lizenz](https://github.com/deframer/news-deframer/blob/main/LICENSE)
+* [Quellcode](https://github.com/deframer/news-deframer/)
+* [Fehler melden](https://github.com/deframer/news-deframer/issues)
+* [Lizenz](https://github.com/deframer/news-deframer/blob/main/LICENSE)
