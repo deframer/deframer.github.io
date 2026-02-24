@@ -20,7 +20,7 @@ News Deframer will detect journalistic neutrality and framing in news articles. 
 
 | | |
 | :---: | :---: |
-| <img src="/assets/screenshots/portal/nytimes.png" alt="The New York Times" width="500"/>| <img src="/assets/screenshots/portal/nypost.png" alt="New York Post" width="500"/> |
+| <img src="/assets/screenshots/portal/nytimes.png" alt="The New York Times" width="500"/> | <img src="/assets/screenshots/portal/nypost.png" alt="New York Post" width="500"/> |
 | [Open Showcase: The New York Times](showcases/nytimes.md) | [Open Showcase: New York Post](showcases/nypost.md) |
 
 ## Video
@@ -49,7 +49,7 @@ Why language analysis is effective
 
 Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/docs/SETUP.md){ target="_blank" }.
 
-## How it works.
+## How it works
 
 News deframer is basically a drop in replacement RSS Feed proxy. We get the headlines from the [RSS](rss-feed.md) of a portal.
 We take the feed and replace it's content with a deframed version. The updated data is also used for the **browser plugin** that

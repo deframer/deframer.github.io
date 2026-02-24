@@ -16,7 +16,7 @@ Der "News Deframer" ist ein sprachliches Analysetool, für alle Ihre präferiert
 
 | | |
 | :---: | :---: |
-| <img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau" width="500"/>| <img src="/assets/screenshots/portal/apollo-news.png" alt="Apollo News" width="500"/> |
+| <img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau" width="500"/> | <img src="/assets/screenshots/portal/apollo-news.png" alt="Apollo News" width="500"/> |
 | [Showcase: Tagesschau](showcases/tagesschau.md) | [Open Showcase: Apollo News](showcases/apollo-news.md) |
 
 ## Video
