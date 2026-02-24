@@ -1,23 +1,41 @@
 # Tagesschau
 
-- RSS-Feed `https://www.tagesschau.de/index~rss2.xml`
+* RSS-Feed: `https://www.tagesschau.de/infoservices/alle-meldungen-100~rss2.xml`
 
-## Portal
+# Portal
 
-**Empfehlung**: Ein Score von 50 % oder höher dient als Warnung. Er deutet auf die Verwendung von Spekulationen, Framing oder Sensationslust hin. Wir empfehlen, den ursprünglichen Titel und die Beschreibung vollständig zu meiden und eine objektivere Quellen zu suchen. Dies deutet darauf hin, dass professionelle Techniken absichtlich eingesetzt werden, um Ihre Wahrnehmung zu manipulieren.
+<img src="/assets/screenshots/portal/tagesschau.png" alt="Tagesschau - Portal" width="1000"/>
 
-<img src="/assets/screenshots/tagesschau/tagesschau-portal.jpg" alt="Tagesschau Portal" width="1000"/>
+* **Portal-Ersatz**: Die Standard-Startseite wird vollständig durch die benutzerdefinierte Portalansicht ersetzt.
+* **Ausblenden-Button**: Mit dem Ausblenden-Button kann die ursprüngliche Startseite wieder angezeigt werden.
 
 ## Artikel
 
 Artikel 1
 
-| Einfach | Erweitert |
-| :---: | :---: |
-| <img src="/assets/screenshots/tagesschau/tagesschau-article1-basic.png" alt="Tagesschau Artikel 1 - Einfach" width="600"/> | <img src="/assets/screenshots/tagesschau/tagesschau-article1-expanded.png" alt="Tagesschau Artikel 1 - Erweitert" width="600"/> |
+<img src="/assets/screenshots/portal/tagesschau_article1.png" alt="Tagesschau - Artikel 1" width="1000"/>
 
 Artikel 2
 
-| Einfach | Erweitert |
-| :---: | :---: |
-| <img src="/assets/screenshots/tagesschau/tagesschau-article2-basic.png" alt="Tagesschau Artikel 2 - Einfach" width="600"/> | <img src="/assets/screenshots/tagesschau/tagesschau-article2-expanded.png" alt="Tagesschau Artikel 2 - Erweitert" width="600"/> |
+<img src="/assets/screenshots/portal/tagesschau_article2.png" alt="Tagesschau - Artikel 2" width="1000"/>
+
+* **Artikel-Ersatz**: Wird die Artikel-URL erkannt, wird die komplette Artikelseite durch die benutzerdefinierte Ansicht ersetzt.
+* **Ausblenden-Button**: Mit dem Ausblenden-Button kann zur ursprünglichen Artikelseite zurückgekehrt werden.
+
+## Trendanalyse
+
+<img src="/assets/screenshots/portal/tagesschau_tag_cloud.png" alt="Tagesschau - Tag Cloud" width="1000"/>
+
+* **Tag-Cloud**: Zeigt die häufigsten Themen und Schlagwörter im ausgewählten Zeitraum.
+
+<img src="/assets/screenshots/portal/tagesschau_lifecycle.png" alt="Tagesschau - Lebenszyklus" width="1000"/>
+
+* **Lebenszyklus**: Nach Auswahl eines Trends aus der Tag-Cloud wird dessen zeitlicher Verlauf im gewählten Zeitraum dargestellt.
+
+<img src="/assets/screenshots/portal/tagesschau_context.png" alt="Tagesschau - Kontext" width="1000"/>
+
+* **Kontext**: Nach Auswahl eines Trends werden die zugehörigen Verben angezeigt, die verdeutlichen, wie der Begriff verwendet wird.
+
+<img src="/assets/screenshots/portal/tagesschau_vs_apollo-news.png" alt="Tagesschau - Vergleich" width="1000"/>
+
+* **Vergleich**: Eine bekannte Quelle in der gewählten Sprache kann mit einer anderen Quelle verglichen werden. Die Ansicht zeigt zentrale Themen, identifiziert blinde Flecken einer Quelle und hebt gemeinsame Schwerpunkte beider Quellen hervor.

@@ -1,17 +1,17 @@
-# Trend Mining
+# Trend Analyse
 
-<img src="/assets/screenshots/portal/nypost_tag_cloud.png" alt="New York Post - Tag Cloud" width="1000"/>
+<img src="/assets/screenshots/portal/tagesschau_tag_cloud.png" alt="Tagesschau - Tag Cloud" width="1000"/>
 
-- **Tag Cloud**: Displays the most frequent talking points for the selected time period.
+* **Tag-Cloud**: Zeigt die häufigsten Themen und Schlagwörter im ausgewählten Zeitraum.
 
-<img src="/assets/screenshots/portal/nypost_lifecycle.png" alt="New York Post - Life Cycle" width="1000"/>
+<img src="/assets/screenshots/portal/tagesschau_lifecycle.png" alt="Tagesschau - Lebenszyklus" width="1000"/>
 
-- **Lifecycle**: Selecting a trend item from the tag cloud reveals its lifecycle within the chosen period.
+* **Lebenszyklus**: Nach Auswahl eines Trends aus der Tag-Cloud wird dessen zeitlicher Verlauf im gewählten Zeitraum dargestellt.
 
-<img src="/assets/screenshots/portal/nypost_context.png" alt="New York Post - Context" width="1000"/>
+<img src="/assets/screenshots/portal/tagesschau_context.png" alt="Tagesschau - Kontext" width="1000"/>
 
-- **Context**: Selecting a trend item also shows the contextual verbs associated with it, illustrating how it is used.
+* **Kontext**: Nach Auswahl eines Trends werden die zugehörigen Verben angezeigt, die verdeutlichen, wie der Begriff verwendet wird.
 
-<img src="/assets/screenshots/portal/nypost_vs_washington_post.png" alt="New York Post - Compare" width="1000"/>
+<img src="/assets/screenshots/portal/tagesschau_vs_apollo-news.png" alt="Tagesschau - Vergleich" width="1000"/>
 
-- **Compare**: Compare any known source in the selected language with another source. The view highlights key talking points, identifies blind spots where one source is silent, and shows overlapping themes between both sources.
+* **Vergleich**: Eine bekannte Quelle in der gewählten Sprache kann mit einer anderen Quelle verglichen werden. Die Ansicht zeigt zentrale Themen, identifiziert blinde Flecken einer Quelle und hebt gemeinsame Schwerpunkte beider Quellen hervor.
