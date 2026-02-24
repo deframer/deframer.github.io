@@ -1,4 +1,4 @@
-# Screenshots
+# Showcases
 
 ## Browser Plugin
 
