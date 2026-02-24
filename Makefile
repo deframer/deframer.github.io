@@ -2,9 +2,6 @@ VENV := .venv
 export VIRTUAL_ENV := $(CURDIR)/$(VENV)
 export PATH := $(VIRTUAL_ENV)/bin:$(PATH)
 
-# Find all directories inside docs to explicitly watch them
-WATCH_ARGS := -w mkdocs.yml $(shell find docs -type d | sed 's/^/-w /')
-
 all:
 	@echo all
 
@@ -15,7 +12,7 @@ build:
 	mkdocs build
 
 serve:
-	mkdocs serve -a 0.0.0.0:8000 $(WATCH_ARGS)
+	mkdocs serve --livereload -a 0.0.0.0:8000 -w overrides
 
 clean:
 	rm -rf site .env
