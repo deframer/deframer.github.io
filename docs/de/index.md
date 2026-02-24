@@ -39,7 +39,7 @@ Warum Sprachanalyse effektiv :
 - Desinformation und Spekulation beruhen oft auf "Dark Patterns, Clickbait und emotionalen Triggern".
 - Autoren von Desinformation verwenden häufig verschleiernde, reißerische und vage Sprachmittel, um rechtliche Konsequenzen zu vermeiden, aber einen bestimmten Effekt beim Leser hervorzurufen.
 
-**WARNUNG**: Durch das LLM **wird** es zu falsch-positiven / falsch-negativen Ergebnissen kommen. Im schlimmsten Fall verpasst (aus versehen) guten Artikel oder ein Clickbait-Artikel rutscht durch.
+**WARNUNG**: Durch das LLM **wird** es zu falsch-positiven / falsch-negativen Ergebnissen kommen. Im schlimmsten Fall verpasst man (aus versehen) guten Artikel oder ein Clickbait-Artikel rutscht durch.
 
 ## Installation
 

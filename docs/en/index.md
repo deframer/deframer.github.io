@@ -43,7 +43,7 @@ Why language analysis is effective
 - Misinformation and speculation often rely on dark patterns, clickbait, and emotional triggers.
 - Authors of misinformation often use disguise and vague language to avoid legal repercussions.
 
-**WARNING**: We **will** have false positives / negatives. Worst case - you don't read an article of your favorite news source or clickbait article slips through.
+**WARNING**: We **will** have false positives / negatives. Worst case - you don't read an article of your favorite news source or a clickbait article slips through.
 
 ## Installation
 
