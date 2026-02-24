@@ -46,8 +46,9 @@ Trend Mining to broaden user perspectives. Many users are confined to a small se
 - [x] Transition to `pg_duckdb` and test SQL Statements
 - [x] Implemented Utility / Frequency function as view
 - [x] Create an initial integration / visualization for the Browser Plugin
-- [ ] Use spaCy for NER (Named Entity Recognition) like person names, locations etc
 - [ ] Enhance spaCy model loader - at the moment we do a pip call to keep the Docker image slim we might need to enhance it for the NER
+- [ ] If we support all 70+ spaCy languages, we need a miner per language or unload models. Every language has about 0.8-1.2GB Ram. That is a lot.
+- [ ] Use spaCy for NER (Named Entity Recognition) like person names, locations etc
 - [ ] Implement API layer
 
 ## Future ideas
