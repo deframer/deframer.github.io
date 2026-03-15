@@ -17,6 +17,8 @@ serve:
 clean:
 	rm -rf site .env
 
+check: lint
+
 lint:
 	docker run --rm -v "$$(pwd):/workdir" davidanson/markdownlint-cli2:latest
 
