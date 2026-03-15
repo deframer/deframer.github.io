@@ -10,7 +10,7 @@ Der „News Deframer“ ist ein sprachliches Analysetool für Ihre bevorzugten N
 
 * Wir [ersetzen](showcases/index.md) die Portalseite.
 * Jede Schlagzeile wird in neutrale Sprache überführt (Reduktion von Clickbait, Reizüberflutung, Suggestion und Framing).
-* Integrierte [Trendanalyse](trends/index.md) zur Erkennung von Talking Points.
+* Integrierte [Trendanalyse](trends/index.md) zur Erkennung von Talking Points und [Sentiments](sentiments/index.md) Visualisierung.
 * Vergleich verschiedener Nachrichtenportale, z. B. "Tagesschau" mit "Apollo News" oder "Bild" mit dem "Bayerischen Rundfunk".
 * Per Klick gelangen Sie zurück zum Originalartikel bzw. zur ursprünglichen Portalseite.
 

@@ -15,7 +15,7 @@ News Deframer analyzes journalistic neutrality and framing in news articles. By 
 
 - We [replace](showcases/index.md) the portal page.
 - Every headline is reformulated in neutral language (reducing clickbait, overstimulation, persuasion, and framing).
-- Built-in [trend analysis](trends/index.md) for detecting recurring talking points.
+- Built-in [trend analysis](trends/index.md) for detecting recurring talking points and [sentiments](sentiments/index.md) visualization.
 - Comparison of major news outlets, e.g., "The New York Times" and the "New York Post" or CNN and Fox News.
 - One click restores the original article or the original portal page.
 

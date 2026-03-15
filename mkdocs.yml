@@ -46,6 +46,8 @@ plugins:
             - News Deframer: index.md
             - Showcases:  showcases/index.md
             - Trends:  trends/index.md
+            - Sentiments: sentiments/index.md
+            - Mobile App: mobile-app/index.md
             - Status: todo.md
             - RSS Proxy:  rss-feed.md
             - Sponsors: sponsors.md
@@ -59,6 +61,8 @@ plugins:
             - News Deframer: index.md
             - Showcases:  showcases/index.md
             - Trends:  trends/index.md
+            - Sentiments: sentiments/index.md
+            - Mobile App: mobile-app/index.md
             - Status: todo.md
             - RSS Proxy:  rss-feed.md
             - Sponsoren: sponsors.md
