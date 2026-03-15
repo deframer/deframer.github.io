@@ -28,9 +28,16 @@
 - [ ] Webbrowser Plugin show more data (missing: author, category)
   - [x] pubDate
 - [x] Webbrowser Plugin i18n support more languages
-- [ ] Webbrowser Plugin add tabs or sections
+- [x] Webbrowser Plugin add tabs or sections
+- [x] Webbrowser full screen settings page
+- [x] Webbrowser sentiment support
 - [ ] Webbrowser Plugin Admin UI enhancement e.g. show the supported domains / disable the plugin etc.
 - [ ] Try to get a Favicon / Logo from somewhere
+
+## Mobile App
+
+- [x] Initial mobile app using react. This builds for iOS, Android and (web for debugging)
+- [ ] Publish Android app on fstore.
 
 ## Website
 
