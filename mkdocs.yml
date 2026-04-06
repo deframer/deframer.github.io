@@ -52,6 +52,7 @@ plugins:
             - RSS Proxy:  rss-feed.md
             - Sponsors: sponsors.md
             - Links: links.md
+            - Discord: discord.md
             - License: license.md
           copyright: Copyright &copy; 2026
         - locale: de
@@ -67,6 +68,7 @@ plugins:
             - RSS Proxy:  rss-feed.md
             - Sponsoren: sponsors.md
             - Links: links.md
+            - Discord: discord.md
             - Lizenz: license.md
           copyright: Copyright &copy; 2026
   - search
