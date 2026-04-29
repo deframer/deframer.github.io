@@ -1,7 +1,11 @@
 # Sponsors
 
-This project is looking for a sponsor for a public instance.
+This project is looking for more sponsors.
 
-For obvious reasons we want to host this project in the USA.
+Thank you:
 
-Please ping us here at [github](https://github.com/deframer/news-deframer/issues).
+  - Markus / Redcap B.V. (Public Servers/Infrastructure)
+
+## Contact
+
+- news [dot] deframer [at] gmail [dot] com

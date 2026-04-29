@@ -5,7 +5,7 @@ description: News Deframer detects journalistic neutrality and framing in news a
 
 # News Deframer
 
-> :mega: **Note:** We are looking for a [Sponsor](sponsors.md) to host this project in the US. :flag_us: :statue_of_liberty:
+> :mega: **Note:** Become a [Sponsor](sponsors.md) for this project.
 
 News Deframer analyzes journalistic neutrality and framing in news articles. By leveraging Large Language Models (LLMs), it evaluates and reformulates headlines in neutral language.
 
