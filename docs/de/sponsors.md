@@ -4,7 +4,7 @@ Dieses Projekt sucht weitere Sponsoren.
 
 Vielen Dank:
 
-  - Markus / Redcap B.V. (Öffentliche Server/Infrastruktur)
+- Markus / Redcap B.V. (Öffentliche Server/Infrastruktur)
 
 ## Kontakt
 

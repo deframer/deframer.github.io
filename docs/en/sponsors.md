@@ -4,7 +4,7 @@ This project is looking for more sponsors.
 
 Thank you:
 
-  - Markus / Redcap B.V. (Public Servers/Infrastructure)
+- Markus / Redcap B.V. (Public Servers/Infrastructure)
 
 ## Contact
 
