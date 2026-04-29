@@ -1,6 +1,6 @@
 # News Deframer
 
-> **Hinweis:** Wir suchen einen [Sponsor](sponsors.md), um dieses Projekt in den USA zu hosten.
+> **Hinweis:** Werde [Sponsor](sponsors.md) für dieses Projekt.
 
 Der „News Deframer“ ist ein sprachliches Analysetool für Ihre bevorzugten Nachrichtenseiten. Mithilfe von LLMs analysiert es Schlagzeilen und formuliert sie in neutraler Sprache neu.
 

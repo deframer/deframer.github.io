@@ -1,7 +1,11 @@
 # Sponsoren
 
-Dieses Projekt sucht einen Sponsor für ein kostenloses öffentliches Hosting.
+Dieses Projekt sucht weitere Sponsoren.
 
-Aus nachvollziehbaren Gründen heraus, möchten wir dieses Projekt gerne in den USA hosten.
+Vielen Dank:
 
-Kontaktaufnahme über [Github](https://github.com/deframer/news-deframer/issues).
+- Markus / Redcap B.V. (Öffentliche Server/Infrastruktur)
+
+## Kontakt
+
+- news [dot] deframer [at] gmail [dot] com
