@@ -10,7 +10,7 @@ Es wurde [freshrss](https://www.freshrss.org/){ target="_blank" } verwendet um d
 | :---: | :---: |
 | <img src="/assets/screenshots/rss-feed/deframed.jpg" alt="Deframed" width="600"/> | <img src="/assets/screenshots/rss-feed/original.jpg" alt="Original" width="600"/> |
 
-## Proxy XML-Feed
+## XML-Feed
 
 Die KI analysiert den Feed, liefert eine Begründung für ihre Bewertung und erzeugt eine neue Schlagzeile, um die Sprache zu entschärfen.
 

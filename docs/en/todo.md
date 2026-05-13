@@ -2,13 +2,13 @@
 
 ## Core
 
-- [x] Basic RSS Proxy
+- [x] Basic RSS feed support
 - [x] Polling and auto updating of feeds
 - [x] Dummy LLM support (zero wait time, zero cost, developer friendly)
 - [x] ChatGPT / Generic OpenAI LLM support / [Local](../assets/screenshots/lmstudio-rtx3060.png) e.g. LM-Studio
 - [x] Grok LLM support (simply use OpenAI)
 - [x] Gemini LLM support
-- [x] Support filtering the RSS Proxy result with a min rating
+- [x] Support filtering RSS feed results with a min rating
 - [x] Enhance the parsing of items e.g. media / thumbnails etc.
 - [x] Enhance the handling of exotic feeds e.g. the bbc uses a different feed url then the item URLs.
 - [x] Move to <https://github.com/deframer>
@@ -31,7 +31,7 @@
 - [x] Webbrowser Plugin add tabs or sections
 - [x] Webbrowser full screen settings page
 - [x] Webbrowser sentiment support
-- [ ] Webbrowser Plugin Admin UI enhancement e.g. show the supported domains / disable the plugin etc.
+- [x] Webbrowser Plugin Admin UI enhancement e.g. show the supported domains / disable the plugin etc.
 - [ ] Try to get a Favicon / Logo from somewhere
 
 ## Mobile App

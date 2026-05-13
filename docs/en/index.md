@@ -52,7 +52,7 @@ Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/d
 
 ## How it works
 
-News Deframer functions as a drop-in RSS feed proxy. It retrieves headlines from a portal’s [RSS](rss-feed.md) feed, processes them, and replaces them with neutralized versions.
+News Deframer consumes a portal’s [RSS](rss-feed.md) feed, processes the headlines, and replaces them with neutralized versions.
 
 The updated data is also used by the **browser plugin**, which replaces the portal page of the corresponding news source.
 
