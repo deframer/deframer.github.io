@@ -10,7 +10,7 @@ The item is rendered by [freshrss](https://www.freshrss.org/){ target="_blank" }
 | :---: | :---: |
 | <img src="/assets/screenshots/rss-feed/deframed.jpg" alt="Deframed" width="600"/> | <img src="/assets/screenshots/rss-feed/original.jpg" alt="Original" width="600"/> |
 
-## Proxy XML Feed
+## XML Feed
 
 The AI analyzes the upstream content, provides reasoning for its assessment, and performs necessary replacements to neutralize the tone.
 
