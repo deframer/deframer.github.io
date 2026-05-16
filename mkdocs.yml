@@ -49,7 +49,6 @@ plugins:
             - Sentiments: sentiments/index.md
             - Mobile App: mobile-app/index.md
             - Status: todo.md
-            - RSS Feed:  rss-feed.md
             - Sponsors: sponsors.md
             - Links: links.md
             - Discord: discord.md
@@ -65,7 +64,6 @@ plugins:
             - Sentiments: sentiments/index.md
             - Mobile App: mobile-app/index.md
             - Status: todo.md
-            - RSS Feed:  rss-feed.md
             - Sponsoren: sponsors.md
             - Links: links.md
             - Discord: discord.md

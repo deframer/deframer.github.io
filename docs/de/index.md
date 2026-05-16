@@ -47,7 +47,7 @@ Richten Sie Ihre eigene [Instanz](https://github.com/deframer/news-deframer/blob
 
 ## Funktionsweise
 
-Der News Deframer bezieht Schlagzeilen aus dem [RSS](rss-feed.md) eines Portals, verarbeitet sie und ersetzt sie durch neutral formulierte Versionen.
+Der News Deframer bezieht Schlagzeilen aus dem RSS eines Portals, verarbeitet sie und ersetzt sie durch neutral formulierte Versionen.
 Der Feed wird verarbeitet und durch neutral formulierte Schlagzeilen ersetzt. Diese aktualisierten Daten werden zudem vom **Browser-Plugin** verwendet, das die Portalseite der jeweiligen Nachrichtenquelle ersetzt.
 
 ## Chrome-Erweiterung
