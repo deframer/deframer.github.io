@@ -5,10 +5,6 @@
 - [The New York Times](nytimes.md)
 - [New York Post](nypost.md)
 
-## RSS Feed
-
-- [RSS Feed](rss-feed.md)
-
 ## AI Configuration
 
 The following setup was used to generate these examples:

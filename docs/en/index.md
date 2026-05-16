@@ -18,6 +18,7 @@ News Deframer analyzes journalistic neutrality and framing in news articles. By 
 - Built-in [trend analysis](trends/index.md) for detecting recurring talking points and [sentiments](sentiments/index.md) visualization.
 - Comparison of major news outlets, e.g., "The New York Times" and the "New York Post" or CNN and Fox News.
 - One click restores the original article or the original portal page.
+- Coming soon: support for deframing news videos.
 
 | | |
 | :---: | :---: |
@@ -52,7 +53,7 @@ Set up your own [instance](https://github.com/deframer/news-deframer/blob/main/d
 
 ## How it works
 
-News Deframer consumes a portal’s [RSS](rss-feed.md) feed, processes the headlines, and replaces them with neutralized versions.
+News Deframer consumes a portal’s RSS feed, processes the headlines, and replaces them with neutralized versions.
 
 The updated data is also used by the **browser plugin**, which replaces the portal page of the corresponding news source.
 

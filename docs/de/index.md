@@ -13,6 +13,7 @@ Der „News Deframer“ ist ein sprachliches Analysetool für Ihre bevorzugten N
 * Integrierte [Trendanalyse](trends/index.md) zur Erkennung von Talking Points und [Sentiments](sentiments/index.md) Visualisierung.
 * Vergleich verschiedener Nachrichtenportale, z. B. "Tagesschau" mit "Apollo News" oder "Bild" mit dem "Bayerischen Rundfunk".
 * Per Klick gelangen Sie zurück zum Originalartikel bzw. zur ursprünglichen Portalseite.
+* Demnächst: Unterstützung für das Deframing von Nachrichtenvideos.
 
 |                                                                                     |                                                                                       |
 | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
@@ -47,7 +48,7 @@ Richten Sie Ihre eigene [Instanz](https://github.com/deframer/news-deframer/blob
 
 ## Funktionsweise
 
-Der News Deframer bezieht Schlagzeilen aus dem [RSS](rss-feed.md) eines Portals, verarbeitet sie und ersetzt sie durch neutral formulierte Versionen.
+Der News Deframer bezieht Schlagzeilen aus dem RSS eines Portals, verarbeitet sie und ersetzt sie durch neutral formulierte Versionen.
 Der Feed wird verarbeitet und durch neutral formulierte Schlagzeilen ersetzt. Diese aktualisierten Daten werden zudem vom **Browser-Plugin** verwendet, das die Portalseite der jeweiligen Nachrichtenquelle ersetzt.
 
 ## Chrome-Erweiterung
